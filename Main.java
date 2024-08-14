@@ -1,7 +1,8 @@
+mport java.text.ParseException;
+
 public class Main {
-    
-    
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws ParseException {
 
     //instanciação
        Academia c = new Academia("Academia das Super Poderosas", "Avenida céu rua anjos", "777");
@@ -47,6 +48,6 @@ public class Main {
          for (Aluno aluno : c2.getAlunos()) {
             System.out.println(aluno.AtoString());
          }
-         
+
     }
 }
